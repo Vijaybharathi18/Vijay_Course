@@ -1,1 +1,158 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+           
+        }
+        body{
+            font-family: "Lato", serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+       
+        .image-s{
+            margin: 13px 0px 10px 90px;
+            transform: scale(3.2);
+        }
+        .wer{
+            display: flex;
+            align-items: center;
+            margin: 6px 61px 0px 0px;
+         }
+          
+        .header{
+            
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 12px 15px 12px;
+            position:absolute;
+            top: 0px;
+            z-index: 100;
+            width: 100%;
+            top: 0%;
+           max-width: 1300px;
+           margin-left: auto;
+           margin-right: auto;
+        }
+        
+       
+        .header-elements{
+            color: #fff;
+            padding: 0px 30px 0px 8px;
+            text-decoration: none;
+            font-size: 17px;
+            margin: 0px 0px 20px 20px
+        }
+        .login-btn{
+            color: #fff;
+            padding: 0px 15px 0px 18px;
+            text-decoration: none;
+            font-size: 17px;
+            margin-left: 300px;
+        }
+        .signup-btn{
+            background-color: #539d98;
+            color: #fff;
+            border: none;
+            border-radius: 9999px;
+            padding: 12px 28px 12px 28px;
+            font-weight: bold;
+            font-family: "Lato", serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0px 50px 0px 10px;
+            width: 120px;
+            max-width: 300px;
+           
+        }
+        .hero-section{
+           position: relative;
+           z-index: 99;
+           object-fit: cover;
+        }
+       
+       .start-btn{
+           
+           color: rgba(83, 157, 152, 1);
+           padding: 10px 10px 10px 10px;
+           width: 162px;
+           height: 51px;
+           border: 1px solid #fff;
+           margin: 28px 0px 0px 1px;
+           border-radius: 5px; 
+       }
+           
+           
+       
+       
+       .section-content{
+            position: absolute;
+            top: 180px;
+            margin-left: 100px;
+           
+       }
+       
+       
+       @media  screen and (max-width:640px) {
+        .pixels{
+            font-size: 60px;
+            font-weight: bold;
+           
+            }
+        .para-1{
+            font-size: 20px;
+            margin-top: 38px;
+       }
+       
+    }
+        
+
+    </style>
+</head>
+<body>
+    <header class=" header">
+        <div class="wer">
+         <div class="image-s">  
+        <img  src="./imagesandvideos/Vijay_Course.png" alt=""  />
+         </div>
+            <a href="#" class="header-elements">Pricing</a>
+            <a href="#" class="header-elements">courses</a>
+            <a href="#" class="header-elements">Blog</a>
+            <a href="#" class="header-elements">Forum</a> 
+        </div>
+        <div class="wer">
+            <a href="#" class="login-btn">Login</a>
+            <button class="signup-btn">Sign Up </button>
+        </div>
+    </header>
+    <section class="hero-section">
+      <!-- <video loop="loop" autoplay="autoplay" playsinline muted="muted" style="min-height: 820px;" src="./images and videos/6330772-hd_1920_1080_30fps.mp4"></video> -->
+            <img src="./imagesandvideos/satellite.png"   alt="" /> 
+            <div class="section-content">
+            <div style="max-width: 438px;">
+             <h1 class="pixels" style="font-size: 36px;"> <span style="color: #fff;">Turbocharge your</span> <span style="color: rgba(144, 202, 199, 1);">development career</span></h1>
+             <p class="para-1" style="max-width: 440px; font-size: 16px; margin-top: 20px;color: #fff;">Chris Courses provides students and professionals a college-level web development education.</p>
+             <button class="start-btn bg-amber-50">Get Started</button>
+             
+
+           
+             </div>
+             </div>
+        
+    </section>
+    
+</body>
+</html>
